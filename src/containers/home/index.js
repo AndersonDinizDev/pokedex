@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { Container, Grid } from '@mui/material'
 import NavBar from '../../components/NavBar'
 import PokemonCard from '../../components/PokemonCard'
-import LoadingItens from '../../components/Skeletons'
+import LoadingItens from '../../components/LoadingItens'
 
 const App = () => {
   const [pokemons, setPokemons] = useState([])
