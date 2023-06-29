@@ -18,7 +18,7 @@ const App = () => {
     const qtdPokemons = 50
 
     for (let i = 1; i < qtdPokemons; i++) {
-      endPoints.push(`http://pokeapi.co/api/v2/pokemon/${i}`)
+      endPoints.push(`https://pokeapi.co/api/v2/pokemon/${i}`)
     }
 
     const response = await Axios.all(endPoints.map((endPoint) => Axios.get(endPoint))).then((res) =>
