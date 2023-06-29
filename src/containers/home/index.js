@@ -41,8 +41,6 @@ const App = () => {
     setPokemons(filteredPokemons)
   }
 
-  console.log(pokemons)
-
   return (
     <div>
       <NavBar pokemonFilter={pokemonFilter} />
